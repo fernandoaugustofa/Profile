@@ -34,6 +34,11 @@
   margin-bottom: 70px;
 }
 
+.center{
+  width: fit-content;
+   margin: auto;
+}
+
 .img-center{
   margin: auto;
 }
