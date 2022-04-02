@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Valhalla</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Custom CSS Theme-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.5/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.5/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.5/dist/js/uikit-icons.min.js"></script>
+
+        <script src="https://unpkg.com/@codersrank/timeline@x.x.x/codersrank-timeline.min.js"></script>
+        <script src="https://unpkg.com/@codersrank/work-experience@x.x.x/codersrank-work-experience.min.js"></script>
+        <script src="https://unpkg.com/@codersrank/activity@x.x.x/codersrank-activity.min.js"></script>
+    </head>
+    <body class="body uk-light">
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container uk-margin  uk-navbar-transparent custom-nav blur" uk-navbar>
+            <div class="uk-navbar-center">
+        
+                <div class="uk-navbar-center"><div>
+                    <ul class="uk-navbar-nav">
+                        <a class="uk-navbar-item uk-logo" href="#About-me">About Me</a>
+                        <li><a href="#Technologies">Technologies</a></li>
+                        <li><a href="#Activity">Activity</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                    </ul>
+                </div></div>       
+            </div>
+        </nav>
+    </div>
+    <div id="About-me" class="inner-body">
+        <div  class="uk-margin-small-bottom" style="width: fit-content; margin: auto;">
+            <img class="uk-border-circle img-center" src="assets/img/me.jpg" width="200" height="200">
+        </div>
+        <div class="uk-margin-medium-bottom" style="width: fit-content; margin: auto;">
+        <h3 class="uk-text-center">Hello There!</h3>
+        <h4 class="uk-text-center" style="margin-top: 2px !important;"> I'm Fernando Augusto</h4>
+        </div>
+        <div class="uk-column-1-2 uk-column-divider uk-margin-xlarge-bottom">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+        </div> 
+        <div id="Technologies" class="uk-margin-xlarge-bottom">
+            <h1 class="uk-text-center uk-margin-bottom">Favorite Technologies</h1>
+            <div class="uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" uk-grid>
+                <div>
+                        <div>
+                            <img class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-logo-php-500.png" alt="">
+                        </div>
+                        <h5 style="color: #ac75d0;">Nodejs</h5>
+                </div>
+                <div>
+                        <div>
+                            <img class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-yii-framework-500.png" alt="">
+                        </div>
+                        <h5 style="color: #ac75d0;">YII2</h5>
+                </div>
+                <div>
+                        <div>
+                            <img class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-postgreesql-500.png" alt="">
+                        </div>
+                        <h5 style="color: #ac75d0;">PostgreeSql</h5>
+                </div>
+                <div>
+                        <div>
+                            <img class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-vuejs-512.png" alt="">
+                        </div>
+                        <h5 style="color: #ac75d0;">VueJS</h5>
+                </div>
+                <div>
+                        <div>
+                            <img class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-nodejs-512.png" alt="">
+                        </div>
+                        <h5 style="color: #ac75d0;">Nodejs</h5>
+                </div>
+                <div>
+                    <div>
+                        <img  class="shadowfilter" height="60px" width="60px" src="assets/langs/icons8-logo-java-coffee-cup-500.png" alt="">
+                    </div>
+                    <h5 style="color: #ac75d0;">Java</h5>
+                </div>
+            </div>
+        </div>
+        <div id="Activity" class="uk-margin-xlarge-bottom">
+            <h1 class="uk-text-center">Github Activity</h1>
+            <codersrank-activity labels="true" username="fernandoaugustofa" branding="false"></codersrank-activity>
+        </div>
+        <div id="Experience" class="uk-margin-xlarge-bottom">
+            <h1 class="uk-text-center">Work Experience</h1>
+            <codersrank-timeline type="technologies" username="fernandoaugustofa" branding="false"></codersrank-timeline>
+        </div>
+        <div class="uk-margin-xlarge-bottom">
+            <codersrank-work-experience username="fernandoaugustofa"></codersrank-work-experience>
+        </div>
+    </div>
+    </body>
+</html>

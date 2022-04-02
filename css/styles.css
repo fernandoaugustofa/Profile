@@ -1,0 +1,101 @@
+.custom-nav{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(178, 121, 216, 0.315) !important;
+}
+.body{
+  background-color: #181818;
+  /* background: url("../assets/img/bg-signup.jpg") no-repeat center center fixed;  */
+}
+
+.shadowfilter {
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(178, 121, 216, 0.959));
+   filter: drop-shadow(0px 0px 10px rgba(178, 121, 216, 0.74));
+}
+
+#About-me {
+  scroll-margin-top: 120px;
+}
+#Experience {
+  scroll-margin-top: 120px;
+}
+#Technologies {
+  scroll-margin-top: 120px;
+}
+#Activity {
+  scroll-margin-top: 120px;
+}
+.inner-body{
+  padding: 50px;
+  max-width: 1000px;
+  margin: auto;
+}
+.container{
+  margin-bottom: 70px;
+}
+
+.img-center{
+  margin: auto;
+}
+.uk-border-circle{
+  border-style: solid;
+  border-color: rgba(178, 121, 216, 0.959);
+  border-width: 5px;
+}
+
+codersrank-work-experience {
+  --title-font-size: 20px;
+  --tag-bg-color: rgba(178, 121, 216, 0.959);
+  --tag-star-color:#ffffff;
+  --title-font-size: 20px;
+}
+
+codersrank-activity {
+  --legend-text-color: red;
+  --legend-font-size: 10px;
+}
+codersrank-timeline {
+  --year-font-size: 14px;
+  --row-height:40px;
+  --timeline-item-font-size: 14px;
+  --timeline-item-padding: 20px 8px;
+  --timeline-item-border-radius: 8px;
+  --timeline-item-bg-color:rgba(178, 121, 216, 0.959);
+  
+}
+
+.custom-card-body{
+  border-radius: 30px;
+}
+.blur{
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+  width: 7px !important;
+  height: 4px; 
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #353535;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(178, 121, 216, 0.959);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 12px;
+}
